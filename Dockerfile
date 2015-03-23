@@ -1,6 +1,6 @@
 FROM java:7-jre
 
-ENV RIEMANN_VERSION 0.2.8
+ENV RIEMANN_VERSION 0.2.9
 
 RUN curl -SL https://aphyr.com/riemann/riemann_${RIEMANN_VERSION}_all.deb -o riemann.deb \
     && dpkg -i riemann.deb \
