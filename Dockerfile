@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM java:7-jre
 
 ENV RIEMANN_VERSION 0.2.8
 
